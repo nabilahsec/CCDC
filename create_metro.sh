@@ -2,7 +2,7 @@
 
 # Create group & user
 groupadd -g 999999 metro
-useradd -u 999999 -g metro -m -s /bin/bash -c "METRO" metro
+useradd -u 1001 -g metro -m -s /bin/bash -c "METRO" metro
 
 # Set password (you will be prompted)
 passwd metro
